@@ -1,1 +1,1 @@
-web: python telebotpogoda.py
+web: python telebotpogoda.py $PORT
