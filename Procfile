@@ -1,1 +1,1 @@
-web: python telebotpogoda.py $PORT
+worker: python telebotpogoda.py $PORT
