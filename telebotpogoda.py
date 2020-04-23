@@ -13,7 +13,7 @@ def send_echo(message):
     temp = w.get_temperature('celsius') ["temp"]
 
     answer = "В городе " + message.text + " сейчас " + w.get_detailed_status() + "\n"
-    answer += "Температура сейчас в районе " + str(temp) + "\n\n"
+    answer += "Температура сейчас в районе " + str(temp) + "\n"
 
     if temp < 10:
         answer += "Сейчас писец как холодно, одевайся теплее"
