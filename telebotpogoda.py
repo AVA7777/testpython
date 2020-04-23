@@ -12,7 +12,7 @@ def send_echo(message):
     w = observation.get_weather()
     temp = w.get_temperature('celsius') ["temp"]
 
-    answer = "В городе " + message.text + w.get_detailed_status() + "\n"
+    answer = "В городе " + message.text + " " + w.get_detailed_status() + "\n"
     answer += "Температура в районе " + str(temp) + "\n"
 
     if temp < 10:
